@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-sgemm = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@umd/browser.js' )
+sgemm = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var sgemm = require( 'path/to/vendor/umd/blas-base-sgemm/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -181,7 +181,7 @@ sgemm.ndarray( 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 1, 2, 2, B, 1, 2
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
