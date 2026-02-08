@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@deno/mod.js';
+import sgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@v0.1.1-deno/mod.js';
 ```
 
 #### sgemm( ord, ta, tb, M, N, K, α, A, lda, B, ldb, β, C, ldc )
@@ -154,7 +154,7 @@ sgemm.ndarray( 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 1, 2, 2, B, 1, 2
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import sgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@deno/mod.js';
+import sgemm from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sgemm@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
