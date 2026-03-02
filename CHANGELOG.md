@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ceffd77`](https://github.com/stdlib-js/stdlib/commit/ceffd77b7979af5b1ea1799dee084a65c82b4526) - **bench:** refactor to use string interpolation in `blas/base/sgemm` [(#10490)](https://github.com/stdlib-js/stdlib/pull/10490) _(by Shubham, Philipp Burckhardt)_
 
 </details>
