@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-18)
+## Unreleased (2026-05-26)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b3c6c81`](https://github.com/stdlib-js/stdlib/commit/b3c6c81b5393667114babd5ed2d56c5d66c026ee) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/sgemm` [(#12280)](https://github.com/stdlib-js/stdlib/pull/12280) _(by Kaustubh Patange)_
 -   [`435bb3c`](https://github.com/stdlib-js/stdlib/commit/435bb3c833f76f9a0a325d435929444dd4407100) - **test:** add alpha & beta tests for `blas/base/sgemm` [(#12190)](https://github.com/stdlib-js/stdlib/pull/12190) _(by Kaustubh Patange, Athan Reines)_
 -   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ceffd77`](https://github.com/stdlib-js/stdlib/commit/ceffd77b7979af5b1ea1799dee084a65c82b4526) - **bench:** refactor to use string interpolation in `blas/base/sgemm` [(#10490)](https://github.com/stdlib-js/stdlib/pull/10490) _(by Shubham, Philipp Burckhardt)_
