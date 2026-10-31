@@ -59,6 +59,7 @@
     "@stdlib/array-ones": "^0.2.2",
     "@stdlib/assert-is-browser": "^0.2.3",
     "@stdlib/blas-base-sscal": "^0.3.1",
+    "@stdlib/blas-base-transpose-operation-resolve-enum": "^0.0.2",
     "@stdlib/math-base-assert-is-nanf": "^0.2.3",
     "@stdlib/math-base-special-floor": "^0.2.4",
     "@stdlib/math-base-special-pow": "^0.3.1",
