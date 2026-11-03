@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-31)
+## Unreleased (2026-11-03)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`b3c6c81`](https://github.com/stdlib-js/stdlib/commit/b3c6c81b5393667114babd5ed2d56c5d66c026ee) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/sgemm` [(#12280)](https://github.com/stdlib-js/stdlib/pull/12280) _(by Kaustubh Patange)_
